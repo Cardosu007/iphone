@@ -9,7 +9,7 @@ public class MeuReprodutorMusical implements Ipod {
         System.out.println("Pausando música...");
     }
 
-    public void selecionarMusica(String musica) {
-        System.out.println("Selecionando música: " + musica);
+    public void selecionarMusica() {
+        System.out.println("Selecionando música: ");
     }
 }

@@ -1,8 +1,8 @@
 package iphone.navegadorInternet;
 
 public class MeuNavegadorInternet implements Safari {
-    public void exibirPagina(String url) {
-        System.out.println("Exibindo página: " + url);
+    public void exibirPagina() {
+        System.out.println("Exibindo página: ");
     }
 
     public void adicionarNovaAba() {
